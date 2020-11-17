@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+nav {
+  padding: 18px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav .navbar-brand:hover {
+  color: #f26896 !important;
+  transition: all 0.5s ease;
+}
+
+.hcb-icon {
+  display: none !important;
+}
+
+.home-desc {
+  visibility: hidden;
+  position: relative;
+}
+
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website {
+  background-color: rgba(211, 211, 211, 0.217);
+}
+
+#HCB_comment_box blockquote {
+  color: green;
+}
+
+input#hcb_form_name {
+  color: darkblue !important;
+  font-size: 18px;
+  background-color: darkgreen;
+}
+
+.blog-credits {
+  display: none;
+}
+
+.my-blogs {
+  margin-top: 1 rem;
+  padding: 0;
+  padding-left: 5rem;
+}
+
+/* Blog images */
+@media only screen and (max-width: 800px) {
+  .article-wrap img {
+    width: 100% !important;
+    max-width: 800px !important;
+  }
+
+  .my-blogs {
+    margin-top: 1 rem;
+    padding: 0;
+    padding-left: 0 !important;
+  }
+}
+
+/* Footer stylings */
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png")
+    repeat center;
+  display: table;
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Arial", sans-serif;
+  font-size: 0.875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: 0.025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color 0.15s ease-in-out;
+}

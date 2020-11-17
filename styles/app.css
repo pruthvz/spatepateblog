@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+nav {
+  padding: 18px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.alert {
+  display: none;
+}
+.alertDanger {
+  margin: 6px;
+  display: none;
+}
+
+nav .navbar-brand:hover {
+  color: #f26896 !important;
+  transition: all 0.5s ease;
+}
