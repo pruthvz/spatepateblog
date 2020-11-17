@@ -32,6 +32,9 @@ img {
   .about-text h6 {
     font-size: 18px;
   }
+  .section {
+    height: auto !important;
+  }
 }
 .about-text p {
   font-size: 18px;
@@ -97,5 +100,5 @@ mark {
 }
 
 .section {
-  height: 90vh;
+  height: 100vh;
 }
