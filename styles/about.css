@@ -1,104 +1,94 @@
-.section {
-  padding: 100px 0;
-  position: relative;
-}
-.gray-bg {
-  background-color: #f5f5f5;
-}
-img {
-  max-width: 100%;
-}
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-/* About Me 
----------------------*/
-.about-text h3 {
-  font-size: 45px;
-  font-weight: 700;
-  margin: 0 0 6px;
-}
-@media (max-width: 767px) {
-  .about-text h3 {
-    font-size: 35px;
-  }
-}
-.about-text h6 {
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-@media (max-width: 767px) {
-  .about-text h6 {
-    font-size: 18px;
-  }
-  .section {
-    height: auto !important;
-  }
-}
-.about-text p {
-  font-size: 18px;
-  max-width: 500px;
-}
-.about-text p mark {
-  font-weight: 600;
-  color: #20247b;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.about-list {
-  padding-top: 10px;
-}
-.about-list .media {
-  padding: 5px 0;
-}
-.about-list label {
-  color: #20247b;
-  font-weight: 600;
-  width: 88px;
+* {
   margin: 0;
-  position: relative;
-}
-.about-list label:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 11px;
-  width: 1px;
-  height: 12px;
-  background: #20247b;
-  -moz-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  margin: auto;
-  opacity: 0.5;
-}
-.about-list p {
-  margin: 0;
-  font-size: 15px;
-}
-
-mark {
-  background-image: linear-gradient(
-    rgba(252, 83, 86, 0.6),
-    rgba(252, 83, 86, 0.6)
-  );
-  background-size: 100% 3px;
-  background-repeat: no-repeat;
-  background-position: 0 bottom;
-  background-color: transparent;
   padding: 0;
-  color: currentColor;
-}
-.theme-color {
-  color: #fc5356;
-}
-.dark-color {
-  color: #20247b;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
-.section {
-  height: 100vh;
+.body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+}
+
+.about-section {
+  background: url(https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
+    no-repeat left;
+  background-size: 55%;
+  background-color: #ebebeb;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.text {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social {
+  padding-top: 25px;
+}
+.social a {
+  text-decoration: none !important;
+  color: darkblue;
+}
+
+.social a:hover {
+  color: blue;
+}
+.social i {
+  padding: 8px !important;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .inner-container {
+    padding: 60px;
+  }
 }

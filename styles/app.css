@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* NAVBAR */
 nav {
   padding: 18px !important;
   font-family: "Montserrat", sans-serif;
@@ -13,6 +14,7 @@ h1 {
 p {
   font-family: "Roboto", sans-serif;
 }
+/* NAVBAR */
 
 .alert {
   display: none;
@@ -22,7 +24,8 @@ p {
   display: none;
 }
 
+/* NAVBAR */
 nav .navbar-brand:hover {
-  color: #f26896 !important;
+  color: #6d68f2 !important;
   transition: all 0.5s ease;
 }

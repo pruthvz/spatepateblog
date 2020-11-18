@@ -1,106 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>my-blog</title>
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/about.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <title>spatepate - About Me</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
     <!-- Logo favicon -->
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">spatepate</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./blog_folder/blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./aboutme.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-          </ul>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+      <a class="navbar-brand" href="./index.html">spatepate</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./blog_folder/blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./aboutme.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <div class="about-section">
+      <div class="inner-container">
+        <h1>About me</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus fugiat
+          voluptate consequatur illum qui repudiandae corrupti, in, expedita
+          inventore iusto perferendis ullam! In, provident ipsum molestiae et
+          nobis nulla nihil.
+        </p>
+        <div class="skills">
+          <span>Web Developer</span>
+          <span>Game Developer</span>
+          <span>Student</span>
         </div>
-      </nav>
-    
-      
+        <center>
+          <div class="social">
+            <a href="https://twitter.com/justpruthvi" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://github.com/pruthvz" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.instagram.com/pruthv1_/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="spatepate.com" target="_blank"
+              ><i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </center>
+      </div>
+    </div>
 
-
-    <section class="section about-section gray-bg" id="about">
-        <div class="container">
-            <div class="row align-items-center ">
-                <div class="col-lg-6">
-                    <div class="about-text go-to">
-                        <h3 class="dark-color">About Me</h3>
-                        <h6 class="theme-color lead">A Student  &amp; Programmer based in the UK.</h6>
-                        <p>I <mark>design and develop</mark> services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
-                        <div class="row about-list">
-                            <div class="col-md-6">
-                                <div class="media">
-                                    <label>Birthday</label>
-                                    <p>10th June 2003</p>
-                                </div>
-                                <div class="media">
-                                    <label><i class="fab fa-github"></i></label>
-                                    <p><a href="https://github.com/pruthvz" target="_blank"  style="text-decoration: none;">pruthvz</a></p>
-                                </div>
-                                <div class="media">
-                                    <label><i class="fab fa-twitter"></i></label>
-                                    <p><a href="https://twitter.com/justpruthvi" target="_blank" style="text-decoration: none;">@justpruthvi</a></p>
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-6">
-                                <div class="media">
-                                    <label>E-mail</label>
-                                    <p>info@domain.com</p>
-                                </div>
-                                <div class="media">
-                                    <label>Freelance</label>
-                                    <p>Available</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- About section -->
+    <!-- <section class="section about-section gray-bg" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-text go-to">
+              <h3 class="dark-color">About Me</h3>
+              <h6 class="theme-color lead">
+                A Student &amp; Programmer based in the UK.
+              </h6>
+              <p>
+                I <mark>design and develop</mark> services for customers of all
+                sizes, specializing in creating stylish, modern websites, web
+                services and online stores. My passion is to design digital user
+                experiences through the bold interface and meaningful
+                interactions.
+              </p>
+              <div class="row about-list">
+                <div class="col-md-6">
+                  <div class="media">
+                    <label>Birthday</label>
+                    <p>10th June 2003</p>
+                  </div>
+                  <div class="media">
+                    <label><i class="fab fa-github"></i></label>
+                    <p>
+                      <a
+                        href="https://github.com/pruthvz"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >pruthvz</a
+                      >
+                    </p>
+                  </div>
+                  <div class="media">
+                    <label><i class="fab fa-twitter"></i></label>
+                    <p>
+                      <a
+                        href="https://twitter.com/justpruthvi"
+                        target="_blank"
+                        style="text-decoration: none"
+                        >@justpruthvi</a
+                      >
+                    </p>
+                  </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-avatar">
-                        <img src="https://images.unsplash.com/photo-1603575448360-153f093fd0b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" title="" alt="">
-                    </div>
+                <div class="col-md-6">
+                  <div class="media">
+                    <label>E-mail</label>
+                    <p>info@domain.com</p>
+                  </div>
+                  <div class="media">
+                    <label>Freelance</label>
+                    <p>Available</p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1603575448360-153f093fd0b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                title=""
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        
-    </section>
-
-
-
+      </div>
+    </section> -->
+    <!-- About section -->
 
     <!-- FOOTER START -->
     <footer>
       <div class="wrapper">
         br
-        <small>&copy;2020 <strong>spatepate blog</strong>, All Rights Reserved</small>
+        <small
+          >&copy;2020 <strong>spatepate blog</strong>, All Rights
+          Reserved</small
+        >
         <nav class="footer-nav">
-          <a href="#">GitHub</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-
-
-          <a href="#">About</a>
-      
+          <a href="https://github.com/pruthvz" target="_blank">GitHub</a>
+          <a href="https://www.instagram.com/pruthv1_/" target="_blank"
+            >Instagram</a
+          >
+          <a href="https://twitter.com/justpruthvi" target="_blank">Twitter</a>
+          <a href="./aboutme.html">About</a>
         </nav>
       </div>
     </footer>
@@ -113,14 +188,23 @@
 
     <!-- Bootstrap -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./js/app.js"></script>
     <!-- customize labels of htmlcommentbox.com -->
-
-</body>
+  </body>
 </html>
-

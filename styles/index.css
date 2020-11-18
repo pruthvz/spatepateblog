@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* Nav styling */
 nav {
   padding: 18px !important;
   font-family: "Montserrat", sans-serif;
@@ -15,10 +16,12 @@ p {
 }
 
 nav .navbar-brand:hover {
-  color: #f26896 !important;
+  color: #6d68f2 !important;
   transition: all 0.5s ease;
 }
+/* Nav styling */
 
+/* HTML COMMENT STYLING */
 .hcb-icon {
   display: none !important;
 }
@@ -44,17 +47,20 @@ input#hcb_form_name {
   font-size: 18px;
   background-color: darkgreen;
 }
+/* HTML COMMENT STYLING */
 
+/* Blog stylings */
 .blog-credits {
   display: none;
 }
 
 .my-blogs {
-  margin-top: 1 rem;
   padding: 0;
   padding-left: 5rem;
 }
-
+.article-wrap {
+  margin-top: 1rem !important;
+}
 /* Blog images */
 @media only screen and (max-width: 800px) {
   .article-wrap img {
@@ -70,8 +76,6 @@ input#hcb_form_name {
 }
 
 /* Footer stylings */
-/* ==== SIMPLE FOOTER ==== */
-
 footer {
   background: url("https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png")
     repeat center;
@@ -104,35 +108,73 @@ footer small {
 }
 
 .footer-nav a:hover {
-  color: #f26896;
+  color: #6d68f2;
   transition: color 0.15s ease-in-out;
 }
 
-/*  */
-.how-section1 {
-  margin-top: -10%;
-  padding: 10%;
-  background: rgba(211, 211, 211, 0.469);
-}
-.how-section1 h4 {
-  color: #ffa500;
-  font-weight: bold;
-  font-size: 30px;
-}
-.how-section1 .subheading {
-  color: #3931af;
-  font-size: 20px;
-}
-.how-section1 .row {
-  margin-top: 10%;
-}
-.how-img {
-  text-align: center;
-}
-.how-img img {
-  width: 40%;
-}
+/* Footer stylings */
 
 #posts-collection {
   position: relative;
+}
+
+/* HEADING STYLINGS */
+.page-header {
+  background: url(https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80)
+    no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.page-caption {
+  padding-top: 170px;
+  padding-bottom: 174px;
+}
+.page-title {
+  font-size: 46px;
+  line-height: 1;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+/* HEADING STYLINGS */
+
+/* UPDATE CARD STYLINGS */
+.card-section {
+  position: relative;
+  bottom: 60px;
+}
+.card-block {
+  padding: 80px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+
+.card-title {
+  font-size: 29px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-body {
+  background: rgba(182, 185, 247, 0.061);
+  border-color: rgba(0, 0, 255, 0.102);
+}
+/* UPDATE CARD STYLINGS */
+
+/* NAVBAR */
+.bg-custom {
+  background: black;
+}
+
+/* SUB HEADINGS  */
+.sub-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
