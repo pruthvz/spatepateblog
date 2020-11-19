@@ -178,3 +178,7 @@ footer small {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
+
+.like-dislike-powered-by {
+  display: none !important;
+}
